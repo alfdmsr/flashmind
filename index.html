@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FlashMind</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1>🧠 FlashMind</h1>
+      <p>Uji Ingatanmu, Taklukkan Ujianmu!</p>
+    </header>
+
+    <div class="container">
+      <select class="topic-selector" id="topicSelector">
+        <option value="math">Matematika</option>
+        <option value="history">Sejarah</option>
+        <option value="science">Sains</option>
+      </select>
+
+      <div class="flashcard-container">
+        <div class="flashcard" id="flashcard">
+          <div class="card-face front">
+            <div class="question" id="question">
+              Pertanyaan akan muncul di sini
+            </div>
+            <button onclick="flipCard()">Tampilkan Jawaban</button>
+          </div>
+          <div class="card-face back">
+            <div class="answer" id="answer">Jawaban akan muncul di sini</div>
+            <button onclick="flipCard()">Tampilkan Pertanyaan</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="controls">
+        <button onclick="prevCard()">Sebelumnya</button>
+        <button onclick="nextCard()">Selanjutnya</button>
+      </div>
+    </div>
+    <script src="scripts/app.js"></script>
+  </body>
+  <footer class="footer">
+    <p>&copy; 2025 FlashMind. All rights reserved.</p>
+    <p>Made with ❤️ by Almas</p>
+  </footer>
+</html>
