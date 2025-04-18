@@ -15,4 +15,4 @@ Flashcard interaktif dengan tema desain Neo Brutalism
 2. Klik kartu untuk melihat jawaban
 3. Gunakan tombol navigasi untuk berpindah soal
 
-Demo: [https://username.github.io/repo-name](https://...)
+Demo: [https://alfdmsr.github.io/flashmind](https://alfdmsr.github.io/flashmind/)
